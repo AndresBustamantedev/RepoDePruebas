@@ -8,6 +8,7 @@ public class Person {
     String email;
     String [] phoneNumbers;
     boolean isStudent;
+    Degree degree;
 
     // metodos (comportamiento de la clase)
 
@@ -20,5 +21,8 @@ public class Person {
 
         return "Buenos dias " + regards + " que tal estas?";
     }
+
+
+
 
 }
