@@ -10,6 +10,20 @@ public class Person {
     boolean isStudent;
     Degree degree;
 
+
+    // constructor de la clase
+
+    public Person(String name, String lastName, int age, String email, String[] phoneNumbers, boolean isStudent, Degree degree) {
+        this.name = name;
+        this.lastName = lastName;
+        this.age = age;
+        this.email = email;
+        this.phoneNumbers = phoneNumbers;
+        this.isStudent = isStudent;
+        this.degree = degree;
+    }
+
+
     // metodos (comportamiento de la clase)
 
     public String getFullName() {

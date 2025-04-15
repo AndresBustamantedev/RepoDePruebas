@@ -3,10 +3,12 @@
 public class Main {
     public static void main(String[] args) {
 
-    Person persona = new Person();
-    persona.name = "Juan";
-    persona.lastName = "Pérez";
-    persona.age = 17;
+    /*
+
+    Person persona1 = new Person();
+    persona1.name = "Juan";
+    persona1.lastName = "Pérez";
+    persona1.age = 17;
 
     Degree degree = new Degree();
     degree.name = "Ingeniería de Sistemas";
@@ -14,7 +16,7 @@ public class Main {
     degree.isActive = true;
 
 
-    persona.degree = degree;
+    persona1.degree = degree;
 
 
     // Crear una segunda instancia de la clase Person
@@ -32,19 +34,30 @@ public class Main {
 
     persona2.degree = degree2;
 
+
+
+     */
         // Crear una variable para almacenar el nombre de la persona a la que se enviarán los saludos
         //String Regards = "Omar"
+        String Regards = "Andres";
 
-    String Regards = "Andres";
+        // Crear una instancia de la clase Person
+    Person persona3 = new Person("Jorge", "Bustamante", 30,"andy@gmail.com", new String[]{"123456789", "987654321"}, true, new Degree("Ingeniería de Sistemas", 5, false));
+
+
 
         // Imprimir el nombre completo de la persona y su edad
-
-        System.out.printf(persona.getFullName()+ " tiene " + persona.age + " años."+
-                " Su carrera es " + persona.degree.name + " y tiene una duración de " + persona.degree.duration + " años.\n");
+    /*
+        System.out.printf(persona1.getFullName()+ " tiene " + persona1.age + " años."+
+                " Su carrera es " + persona1.degree.name + " y tiene una duración de " + persona1.degree.duration + " años.\n");
         System.out.printf(persona2.name + " " + persona2.lastName + " tiene " + persona2.age + " años.\n");
-        System.out.println(persona.sendRegards("Andres"));
+        System.out.println(persona1.sendRegards("Andres"));
         System.out.println(persona2.sendRegards(Regards));
-
+    */
+        System.out.println(persona3);
+        System.out.printf(persona3.getFullName()+ " tiene " + persona3.age + " años."+
+                " Su carrera es " + persona3.degree.name + " y tiene una duración de " + persona3.degree.duration + " años.\n");
+        System.out.println(persona3.);
 
     }
 
