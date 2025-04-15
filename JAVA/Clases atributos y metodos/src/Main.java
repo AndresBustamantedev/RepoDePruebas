@@ -43,7 +43,7 @@ public class Main {
 
         // Crear una instancia de la clase Person
     Person persona3 = new Person("Jorge", "Bustamante", 30,"andy@gmail.com", new String[]{"123456789", "987654321"}, true, new Degree("Ingeniería de Sistemas", 5, false));
-
+    Person persona4 = new Person("Karol","Carbajal",29);
 
 
         // Imprimir el nombre completo de la persona y su edad
@@ -57,7 +57,12 @@ public class Main {
         System.out.println(persona3);
         System.out.printf(persona3.getFullName()+ " tiene " + persona3.age + " años."+
                 " Su carrera es " + persona3.degree.name + " y tiene una duración de " + persona3.degree.duration + " años.\n");
-        System.out.println(persona3.);
+
+
+        System.out.println(persona4.getFullName() + " tiene " + persona4.age + " años.");
+
+
+
 
     }
 

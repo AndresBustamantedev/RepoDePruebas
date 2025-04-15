@@ -13,6 +13,7 @@ public class Person {
 
     // constructor de la clase
 
+    //instancia 1
     public Person(String name, String lastName, int age, String email, String[] phoneNumbers, boolean isStudent, Degree degree) {
         this.name = name;
         this.lastName = lastName;
@@ -22,6 +23,13 @@ public class Person {
         this.isStudent = isStudent;
         this.degree = degree;
     }
+    //instancia 2
+    public Person(String name, String lastName, int age) {
+        this.name = name;
+        this.lastName = lastName;
+        this.age = age;
+    }
+
 
 
     // metodos (comportamiento de la clase)
