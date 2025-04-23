@@ -19,6 +19,7 @@ public class Ahorcado {
 
         //optimizar el código 2
 
+        
         // Crear un arreglo de caracteres para almacenar las letras adivinadas
         char[] letrasAdivinadas = new char[palabraSecreta.length()];
 

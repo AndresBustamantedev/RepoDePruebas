@@ -44,7 +44,19 @@ public class Main {
         // Crear una instancia de la clase Person
     Person persona3 = new Person("Jorge", "Bustamante", 30,"andy@gmail.com", new String[]{"123456789", "987654321"}, true, new Degree("Ingeniería de Sistemas", 5, false));
     Person persona4 = new Person("Karol","Carbajal",29);
+    Person persona5 = new Person("Oscar", "Burgasi", 12);
 
+
+    //el atributo name de la clase Person es privado, por lo que no se puede acceder directamente
+        //persona3.name = "Pedro";
+        //persona3.setName("Pedro");
+        //System.out.println(persona3.name);
+        //System.out.println(persona3.getFullName());
+        //System.out.println(persona3.getAge());
+        //System.out.println(persona3.sendRegards(Regards));
+
+        // Cambiar el nombre de la persona a "Pedro"
+    persona3.setName("ANDRES");
 
         // Imprimir el nombre completo de la persona y su edad
     /*
@@ -54,15 +66,20 @@ public class Main {
         System.out.println(persona1.sendRegards("Andres"));
         System.out.println(persona2.sendRegards(Regards));
     */
-        System.out.println(persona3);
+
+
         System.out.printf(persona3.getFullName()+ " tiene " + persona3.age + " años."+
                 " Su carrera es " + persona3.degree.name + " y tiene una duración de " + persona3.degree.duration + " años.\n");
 
 
         System.out.println(persona4.getFullName() + " tiene " + persona4.age + " años.");
 
+        System.out.println(persona5.getFullName() + " tiene " + persona5.age + " años.");
 
+        System.out.println(persona3.getAge());
 
+        //lo retorna en minuscula por el metodo getName() .toLowerCase()
+        System.out.println(persona3.getName());
 
     }
 
