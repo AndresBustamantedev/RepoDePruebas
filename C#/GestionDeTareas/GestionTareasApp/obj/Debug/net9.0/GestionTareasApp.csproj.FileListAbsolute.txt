@@ -1,0 +1,15 @@
+C:\Users\haiol\Desktop\DESARROLLO\REPOSITORIO DE PRUEBAS\C#\GestionDeTareas\GestionTareasApp\bin\Debug\net9.0\GestionTareasApp.exe
+C:\Users\haiol\Desktop\DESARROLLO\REPOSITORIO DE PRUEBAS\C#\GestionDeTareas\GestionTareasApp\bin\Debug\net9.0\GestionTareasApp.deps.json
+C:\Users\haiol\Desktop\DESARROLLO\REPOSITORIO DE PRUEBAS\C#\GestionDeTareas\GestionTareasApp\bin\Debug\net9.0\GestionTareasApp.runtimeconfig.json
+C:\Users\haiol\Desktop\DESARROLLO\REPOSITORIO DE PRUEBAS\C#\GestionDeTareas\GestionTareasApp\bin\Debug\net9.0\GestionTareasApp.dll
+C:\Users\haiol\Desktop\DESARROLLO\REPOSITORIO DE PRUEBAS\C#\GestionDeTareas\GestionTareasApp\bin\Debug\net9.0\GestionTareasApp.pdb
+C:\Users\haiol\Desktop\DESARROLLO\REPOSITORIO DE PRUEBAS\C#\GestionDeTareas\GestionTareasApp\obj\Debug\net9.0\GestionTareasApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haiol\Desktop\DESARROLLO\REPOSITORIO DE PRUEBAS\C#\GestionDeTareas\GestionTareasApp\obj\Debug\net9.0\GestionTareasApp.AssemblyInfoInputs.cache
+C:\Users\haiol\Desktop\DESARROLLO\REPOSITORIO DE PRUEBAS\C#\GestionDeTareas\GestionTareasApp\obj\Debug\net9.0\GestionTareasApp.AssemblyInfo.cs
+C:\Users\haiol\Desktop\DESARROLLO\REPOSITORIO DE PRUEBAS\C#\GestionDeTareas\GestionTareasApp\obj\Debug\net9.0\GestionTareasApp.csproj.CoreCompileInputs.cache
+C:\Users\haiol\Desktop\DESARROLLO\REPOSITORIO DE PRUEBAS\C#\GestionDeTareas\GestionTareasApp\obj\Debug\net9.0\GestionTareasApp.sourcelink.json
+C:\Users\haiol\Desktop\DESARROLLO\REPOSITORIO DE PRUEBAS\C#\GestionDeTareas\GestionTareasApp\obj\Debug\net9.0\GestionTareasApp.dll
+C:\Users\haiol\Desktop\DESARROLLO\REPOSITORIO DE PRUEBAS\C#\GestionDeTareas\GestionTareasApp\obj\Debug\net9.0\refint\GestionTareasApp.dll
+C:\Users\haiol\Desktop\DESARROLLO\REPOSITORIO DE PRUEBAS\C#\GestionDeTareas\GestionTareasApp\obj\Debug\net9.0\GestionTareasApp.pdb
+C:\Users\haiol\Desktop\DESARROLLO\REPOSITORIO DE PRUEBAS\C#\GestionDeTareas\GestionTareasApp\obj\Debug\net9.0\GestionTareasApp.genruntimeconfig.cache
+C:\Users\haiol\Desktop\DESARROLLO\REPOSITORIO DE PRUEBAS\C#\GestionDeTareas\GestionTareasApp\obj\Debug\net9.0\ref\GestionTareasApp.dll
