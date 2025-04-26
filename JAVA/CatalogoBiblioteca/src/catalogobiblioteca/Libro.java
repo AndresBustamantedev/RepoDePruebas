@@ -8,17 +8,20 @@ import java.io.Serializable;
  * No se puede instanciar directamente.
  */
 
-public abstract class Libro implements Serializable {
+    // atributos de la clase Libro
+    public abstract class Libro implements Serializable {
     protected String autor;
     protected int numeroPaginas;
     protected String ISBN;
 
+    // constructor
     public Libro(String autor, int numeroPaginas, String ISBN) {
         this.autor = autor;
         this.numeroPaginas = numeroPaginas;
         this.ISBN = ISBN;
     }
 
+    // Getters y Setters
     public String getISBN() {
         return ISBN;
     }
@@ -27,5 +30,5 @@ public abstract class Libro implements Serializable {
      * Metodo abstracto para mostrar la información del libro.
      * Cada subclase implementará su propia versión.
      */
-    public abstract String mostrarInfo();
+    public abstract String mostrarInfo();// metodo abstracto que obliga a las subclases a implementar su propia versión
 }
